@@ -5,14 +5,13 @@ def sao_anagramas(string1, string2):
     print(True)
   else:
     print(False)
+
+
+def encontrar_maior_palavra(texto):
+  lista = texto.split()
+  maior = ""
+  for palavra in lista:
+      if len(palavra) > len(maior):
+          maior = palavra
+  print(maior)
   
-
-  
-  
-
-
-def cifra_de_cesar(texto, deslocamento):
-  #TODO: implementar a lógica
-  pass
-
-
